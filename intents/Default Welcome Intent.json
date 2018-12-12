@@ -1,0 +1,55 @@
+{
+  "id": "5ede785e-1209-4675-a171-23d6bd06d353",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Salut !",
+            "Bonjour !",
+            "Salutations !",
+            "Bienvenue !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "fr-fr",
+          "speech": [
+            "Salut !",
+            "Bonjour !",
+            "Salutations !",
+            "Bienvenue !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542904253,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

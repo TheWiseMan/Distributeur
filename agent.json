@@ -1,0 +1,59 @@
+{
+  "description": "Distributeur interactif de boisson",
+  "language": "fr",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "7af1caa4-1959-4042-9c39-add128c0c31e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "0e815d3b-3d1e-4f18-ae7b-aeb201a91ea3",
+        "signInRequired": false
+      },
+      {
+        "intentId": "637d9034-0b22-48cc-b98b-9217b29ddc3b",
+        "signInRequired": false
+      },
+      {
+        "intentId": "2c7252e9-5bbb-469f-b1a6-5180ead0fcac",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "0e815d3b-3d1e-4f18-ae7b-aeb201a91ea3"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Europe/Madrid",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [
+    "fr-fr"
+  ],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

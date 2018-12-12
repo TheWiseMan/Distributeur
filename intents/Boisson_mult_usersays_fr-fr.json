@@ -1,0 +1,150 @@
+[
+  {
+    "id": "fa6e6b59-5cb6-4919-afed-b5eac4a782e7",
+    "data": [
+      {
+        "text": "prépare- moi un ",
+        "userDefined": false
+      },
+      {
+        "text": "cocktail",
+        "alias": "Drink_name_data",
+        "meta": "@Drink_name_data",
+        "userDefined": true
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "taste",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": " et de ",
+        "userDefined": false
+      },
+      {
+        "text": "taste2",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": " stp !",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542807026
+  },
+  {
+    "id": "4331b6e8-be08-43e9-b718-189283ae0814",
+    "data": [
+      {
+        "text": "cocktail",
+        "alias": "Drink_name_data",
+        "meta": "@Drink_name_data",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "taste",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "taste2",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544013765
+  },
+  {
+    "id": "c1c28d86-e7b8-404b-851d-16dd482a81ce",
+    "data": [
+      {
+        "text": "je veux un cocktail ",
+        "userDefined": false
+      },
+      {
+        "text": "menthe",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "fraise",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": " et ",
+        "userDefined": false
+      },
+      {
+        "text": "abricot",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542910884
+  },
+  {
+    "id": "372ce152-6cf8-43cb-8c2d-718e9baadaa1",
+    "data": [
+      {
+        "text": "cocktail",
+        "alias": "Drink_name_data",
+        "meta": "@Drink_name_data",
+        "userDefined": true
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "taste",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": " et de ",
+        "userDefined": false
+      },
+      {
+        "text": "taste2",
+        "alias": "Distributeur_host",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542808806
+  }
+]

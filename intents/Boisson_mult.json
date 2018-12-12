@@ -1,0 +1,77 @@
+{
+  "id": "0e815d3b-3d1e-4f18-ae7b-aeb201a91ea3",
+  "name": "Boisson_mult",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Make_Drink",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "07db2b17-b96a-4ba0-8f1a-e334c18064fb",
+          "required": false,
+          "dataType": "@Drink_name_data",
+          "name": "Drink_name_data",
+          "value": "$Drink_name_data",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "4523a63a-db6f-42d8-b11b-bd1dc3f94989",
+          "required": true,
+          "dataType": "@Distributeur_host",
+          "name": "Distributeur_host",
+          "value": "$Distributeur_host",
+          "prompts": [
+            {
+              "lang": "fr",
+              "value": "Quels mélange aimeriez-vous ?"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Je te prépare un $Drink_name_data $Distributeur_host tout de suite !",
+            "Et un $Drink_name_data de $Distributeur_host en préparation !"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "line",
+          "lang": "fr-fr",
+          "speech": "Non."
+        },
+        {
+          "type": 0,
+          "lang": "fr-fr",
+          "speech": [
+            "Je te prépare un $Drink_name_data $Distributeur_host tout de suite !",
+            "Et un $Drink_name_data de $Distributeur_host en préparation !",
+            "ça arrive tout de suite !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1544017168,
+  "fallbackIntent": false,
+  "events": []
+}

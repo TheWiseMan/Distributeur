@@ -1,0 +1,45 @@
+{
+  "id": "5a0fdf11-1bb5-45ca-9157-d68635464706",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr-fr",
+          "speech": [
+            "J\u0027ai du mal à comprendre cette question.",
+            "J\u0027ai mal compris votre demande.",
+            "Je n\u0027ai pas saisi ce que vous avez dit.",
+            "Je crois que je ne vous suis pas.",
+            "Je ne comprends pas de quoi vous me parlez."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "J\u0027ai du mal à comprendre cette question.",
+            "J\u0027ai mal compris votre demande.",
+            "Je n\u0027ai pas saisi ce que vous avez dit.",
+            "Je crois que je ne vous suis pas.",
+            "Je ne comprends pas de quoi vous me parlez."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

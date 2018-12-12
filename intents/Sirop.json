@@ -1,0 +1,63 @@
+{
+  "id": "2c7252e9-5bbb-469f-b1a6-5180ead0fcac",
+  "name": "Sirop",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Sirop",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "00311039-4dac-4a48-b84c-85f4dc9f5944",
+          "required": false,
+          "dataType": "@Distributeur_host",
+          "name": "taste",
+          "value": "$taste",
+          "prompts": [
+            {
+              "lang": "fr-fr",
+              "value": "Sirop de menthe."
+            },
+            {
+              "lang": "fr",
+              "value": "Sirop de menthe."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr-fr",
+          "speech": [
+            "Sirop de $taste en préparation !",
+            "Sirop en préparation.. $taste !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Sirop de $taste en préparation !",
+            "Sirop en préparation.. $taste !"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542807782,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "7af1caa4-1959-4042-9c39-add128c0c31e",
+  "name": "Distributeur",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Start",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c9a66dd5-0788-4c68-a5f7-a428397f40a1",
+          "required": false,
+          "dataType": "@Essai",
+          "name": "demarre",
+          "value": "008",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr-fr",
+          "speech": [
+            "Le distributeur est prêt à répondre à votre requête.",
+            "Bienvenue, le distributeur est prêt à répondre à votre requête."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": [
+            "Le distributeur est prêt à répondre à votre requête.",
+            "Bienvenue, le distributeur est prêt à répondre à votre requête."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542826019,
+  "fallbackIntent": false,
+  "events": []
+}

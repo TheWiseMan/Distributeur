@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c0d0d548-efa8-45ee-af8d-9bafe5ed4f8f",
+    "data": [
+      {
+        "text": "drink_name_data",
+        "alias": "Drink_name_data",
+        "meta": "@Drink_name_data",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542808908
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "637d9034-0b22-48cc-b98b-9217b29ddc3b",
+  "name": "Boisson_sing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9a57e2ef-1abb-44d0-bc98-5fa3a22d7b6c",
+          "dataType": "@Drink_name_data",
+          "name": "Drink_name_data",
+          "value": "$Drink_name_data",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "fr-fr",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542808908,
+  "fallbackIntent": false,
+  "events": []
+}

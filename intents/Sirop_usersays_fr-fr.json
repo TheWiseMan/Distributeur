@@ -1,0 +1,60 @@
+[
+  {
+    "id": "c2dd64d5-a6f4-4a4c-ba8c-3799374fe98d",
+    "data": [
+      {
+        "text": "Prépare- moi un sirop de ",
+        "userDefined": false
+      },
+      {
+        "text": "$taste",
+        "alias": "taste",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1542806413
+  },
+  {
+    "id": "7be8f997-21b6-4cb6-863c-65a1bcf9fc5a",
+    "data": [
+      {
+        "text": "e voudrais un sirop de ",
+        "userDefined": false
+      },
+      {
+        "text": "menthe",
+        "alias": "taste",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      },
+      {
+        "text": ", s\u0027il-vous-plaît !",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542807782
+  },
+  {
+    "id": "43eeb7f7-3569-4046-9375-f7f0a74843cb",
+    "data": [
+      {
+        "text": "sirop de ",
+        "userDefined": false
+      },
+      {
+        "text": "taste",
+        "alias": "taste",
+        "meta": "@Distributeur_host",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542806785
+  }
+]

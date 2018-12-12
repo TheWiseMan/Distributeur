@@ -1,0 +1,53 @@
+[
+  {
+    "value": "menthe",
+    "synonyms": [
+      "Menthe",
+      "menthe",
+      "minth"
+    ]
+  },
+  {
+    "value": "fraise",
+    "synonyms": [
+      "Fraise"
+    ]
+  },
+  {
+    "value": "pêche",
+    "synonyms": [
+      "peche",
+      "Pêche"
+    ]
+  },
+  {
+    "value": "pomme",
+    "synonyms": [
+      "Pomme"
+    ]
+  },
+  {
+    "value": "abricot",
+    "synonyms": [
+      "Abricot"
+    ]
+  },
+  {
+    "value": "grenadine",
+    "synonyms": [
+      "Grenadine"
+    ]
+  },
+  {
+    "value": "taste",
+    "synonyms": [
+      "taste"
+    ]
+  },
+  {
+    "value": "taste2",
+    "synonyms": [
+      "taste2"
+    ]
+  }
+]

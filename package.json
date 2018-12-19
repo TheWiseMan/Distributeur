@@ -9,8 +9,8 @@
     "node": "8"
   },
   "scripts": {
-    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
-    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
+    //"start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    //"deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
   },
   "dependencies": {
     "actions-on-google": "^2.2.0",
